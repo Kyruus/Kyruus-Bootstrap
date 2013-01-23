@@ -1,0 +1,72 @@
+//
+// Kyruus Font Awesome styles
+// --------------------------------------------------
+
+
+// Icon Colors
+// -------------------------
+
+.muted {
+  &[class^="icon-"],
+  &[class*=" icon-"],
+  [class^="icon-"],
+  [class*=" icon-"] {
+    color: mix(@grayLight, @grayLighter);
+  }
+}
+
+
+// Icon Borders
+// -------------------------
+
+.icon-border {
+  border: solid 1px @grayLighter;
+  padding: .2em .35em 0px;
+}
+
+
+// Icon Sizes
+// -------------------------
+
+.icon-xlarge {
+  font-size: 2em;
+  &.icon-border { border-width: 2px; }
+}
+
+.icon-2xl {
+  font-size: 2em;
+  &.icon-border { border-width: 2px; }
+}
+.icon-3xl {
+  font-size: 3em;
+  &.icon-border { border-width: 3px; }
+}
+.icon-4xl {
+  font-size: 4em;
+  &.icon-border { border-width: 4px; }
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-xlarge,
+.icon-2xl,
+.icon-3xl,
+.icon-4xl {
+  vertical-align: middle;
+  line-height: 1.1em;
+}
+
+
+// Icon Floats
+// -------------------------
+
+[class^="icon-"],
+[class*=" icon-"] {
+  &.pull-left {
+    margin-right: .35em;
+    &.icon-4xl { margin-right: .25em; }
+  }
+  &.pull-right {
+    margin-left: .35em;
+    &.icon-4xl { margin-left: .25em; }
+  }
+}

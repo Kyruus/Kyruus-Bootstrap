@@ -1,0 +1,189 @@
+table.dataTable {
+  margin:0 auto;
+  clear:both;
+  width:100%;
+  td.center, td.dataTables_empty {
+    text-align:center;
+  }
+  thead th {
+    padding-right:20px;
+    font-weight:bold;
+    > div {
+      position: relative; // needed for icon absolute positioning
+    }
+  }
+  tfoot th {
+    padding:3px 18px 3px 10px;
+    border-top:1px solid black;
+    font-weight:bold;
+  }
+  td {
+//    padding:3px 10px;
+  }
+  th:active {
+    outline:none;
+  }
+}
+.dataTables_wrapper {
+  position:relative;
+  clear:both;
+  *zoom:1;
+}
+.dataTables_length {
+  float:left;
+}
+.dataTables_filter {
+  float:right;
+  text-align:right;
+}
+.dataTables_info {
+  clear:both;
+  float:left;
+}
+.dataTables_paginate {
+  float:right;
+  text-align:right;
+}
+.paginate_disabled_previous {
+  height:19px;
+  float:left;
+  cursor:pointer;
+  *cursor:hand;
+  color:#111111 !important;
+  color:#666666 !important;
+  padding-left:23px;
+  background:url('../images/back_disabled.png') no-repeat top left;
+}
+.paginate_enabled_previous {
+  height:19px;
+  float:left;
+  cursor:pointer;
+  *cursor:hand;
+  color:#111111 !important;
+  padding-left:23px;
+  background:url('../images/back_enabled.png') no-repeat top left;
+}
+.paginate_disabled_next {
+  height:19px;
+  float:left;
+  cursor:pointer;
+  *cursor:hand;
+  color:#111111 !important;
+  color:#666666 !important;
+  padding-right:23px;
+  margin-left:10px;
+  background:url('../images/forward_disabled.png') no-repeat top right;
+}
+.paginate_enabled_next {
+  height:19px;
+  float:left;
+  cursor:pointer;
+  *cursor:hand;
+  color:#111111 !important;
+  padding-right:23px;
+  margin-left:10px;
+  background:url('../images/forward_enabled.png') no-repeat top right;
+}
+.paginate_disabled_previous:hover, .paginate_disabled_next:hover {
+  text-decoration:none !important;
+}
+.paginate_enabled_previous:hover {
+  text-decoration:none !important;
+  background:url('../images/back_enabled_hover.png') no-repeat top left;
+}
+.paginate_enabled_next:hover {
+  text-decoration:none !important;
+  background:url('../images/forward_enabled_hover.png') no-repeat top right;
+}
+.paginate_disabled_previous:active, .paginate_enabled_previous:active, .paginate_disabled_next:active, .paginate_enabled_next:active {
+  outline:none;
+}
+.paging_full_numbers {
+  height:22px;
+  line-height:22px;
+  a:active {
+    outline:none;
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  a.paginate_button {
+    border:1px solid #aaaaaa;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding:2px 5px;
+    margin:0 3px;
+    cursor:pointer;
+    *cursor:hand;
+    color:#333333 !important;
+    background-color:#dddddd;
+  }
+  a.paginate_active {
+    border:1px solid #aaaaaa;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding:2px 5px;
+    margin:0 3px;
+    cursor:pointer;
+    *cursor:hand;
+    color:#333333 !important;
+    background-color:#99b3ff;
+  }
+  a.paginate_button:hover {
+    background-color:#cccccc;
+    text-decoration:none !important;
+  }
+}
+.dataTables_processing {
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:250px;
+  height:30px;
+  margin-left:-125px;
+  margin-top:-15px;
+  padding:14px 0 2px 0;
+  border:1px solid #dddddd;
+  text-align:center;
+  color:#999999;
+  font-size:14px;
+  background-color:white;
+}
+
+.dataTable {
+  .sorting, .sorting_asc, .sorting_desc {
+    cursor:pointer;
+    *cursor:hand;
+    color: @linkColor;
+    &:hover {
+      color: @linkColorHover;
+    }
+  }
+  .sorting_asc, .sorting_desc {
+//    background-color: lighten(@linkColor, 37%);
+  }
+  .sorting > div {
+    .dataTables_icon("\f0dc", #ddd, @grayLight); // icon-sort
+  }
+  .sorting_asc > div {
+    .dataTables_icon("\f0de", @linkColor, @linkColorHover); // icon-sort-up
+  }
+  .sorting_desc > div {
+    .dataTables_icon("\f0dd", @linkColor, @linkColorHover); // icon-sort-down
+  }
+  .sorting_asc_disabled > div {
+    .dataTables_icon("\f0de", #ddd, #ddd); // icon-sort-up
+  }
+  .sorting_desc_disabled > div {
+    .dataTables_icon("\f0dd", #ddd, #ddd); // icon-sort-down
+  }
+}
+
+.dataTables_scroll {
+  clear:both;
+}
+.dataTables_scrollBody {
+  *margin-top:-1px;
+}

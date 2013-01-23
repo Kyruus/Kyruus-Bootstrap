@@ -1,0 +1,68 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Body text
+// -------------------------
+
+.lead {
+  margin-bottom: @baseLineHeight / 2;
+  font-size: @baseFontSize + 4;
+  font-weight: bold;
+  line-height: @baseLineHeight + 6;
+}
+
+.lead-large, .copy-large .lead {
+  margin-bottom: @baseLineHeight * 1.5;
+  font-size: @baseFontSize + 10;
+  font-weight: bold;
+  line-height: @baseLineHeight + 15;
+
+  small {
+    font-size: 70%;
+  }
+}
+
+.copy-large {
+  &, & li {
+    font-size: @baseFontSize + 4;
+    line-height: @baseLineHeight + 8;
+  }
+  li {
+    margin: @baseLineHeight/4 0;
+  }
+}
+
+
+// Page header
+// -------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  &.header {
+    margin-bottom: 15px;
+    border-bottom: solid 1px @grayLighter;
+    padding-bottom: 8px;
+  }
+}
+
+
+// MISC
+// ----
+
+// Horizontal rules
+hr.hr-small {
+  margin: @baseLineHeight/2  0;
+}
+
+
+// Floats
+img.pull-right {
+  margin: 20px;
+  margin-right: 0;
+}
+
+img.pull-left {
+  margin: 20px;
+  margin-left: 0;
+}

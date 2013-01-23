@@ -1,0 +1,106 @@
+@import "fonts.less";
+@import "mixins.less";
+@import "../twbs-2.1/bootstrap.less";
+@import "../../font/font-awesome/font-awesome.less";
+@import "data-tables.less";
+@import "select2.less";
+
+// variable overrides
+@import "variables.less";
+
+
+// BOOTSTRAP OVERRIDES
+// -------------------
+@import "progress-bars.less";
+@import "labels-badges.less";
+@import "jumbotron.less";
+@import "buttons.less";
+@import "button-groups.less";
+@import "navbar.less";
+@import "wells.less";
+@import "type.less";
+@import "footer.less";
+@import "dropdowns.less";
+@import "close.less";
+@import "retina.less";
+@import "font-awesome.less"; // additional icon styles
+
+
+// GLOBAL STYLES
+// -------------
+
+body {
+  // force scrollbars in safari
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  }
+}
+
+// default popovers are too big
+.popover {
+  .popover-title {
+    font-size: @baseFontSize;
+    padding: 9px 10px 7px;
+  }
+  .popover-content {
+    padding: 7px 10px;
+    p { font-size: @baseFontSize - 2px; }
+  }
+}
+
+.no-underline:hover { text-decoration: none; }
+
+.hilite { color: @linkColor }
+
+td.number { text-align: right; }
+
+a.clickable { cursor: pointer; }
+
+.btn-light {
+  color: @linkColor;
+  &:hover {
+    color: @linkColorHover;
+  }
+  background: @white;
+//  .buttonBackground(@white, #fafafa);
+}
+
+
+
+
+
+
+.search-with-icon {
+  float:left;
+  position: relative;
+  margin-top:0;
+  button.submit {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    color: #ccc;
+    &:hover { color: #aaa; }
+    &:active { color: @grayLighter; }
+  }
+}
+
+.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
