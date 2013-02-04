@@ -1,0 +1,32 @@
+.background-muted {
+  background-color: @tableBackgroundAccent;
+  background-image: url('@{image_url}kyruus-waves.svg');
+  thead {
+    tr {
+      background-color: @white;
+    }
+    th {
+    //      text-align: center;
+    }
+  }
+  tbody {
+    > tr:nth-child(odd) > td,
+    > tr:nth-child(odd) > th {
+      background-color: transparent;
+    }
+    > tr:nth-child(even) > td,
+    > tr:nth-child(even) > th {
+      background-color: @white;
+    }
+    tr:hover td,
+    tr:hover th {
+      background-color: @tableBackgroundHover;
+    }
+  }
+}
+
+.relationship-accordion {
+  h4 {
+    font-family: @sansFontFamily;
+  }
+}

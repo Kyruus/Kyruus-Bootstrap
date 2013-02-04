@@ -1,0 +1,77 @@
+//
+// Kyruus Progress bars
+// --------------------------------------------------
+
+.progress {
+  position: relative;
+}
+
+.progress-small {
+  height: @baseLineHeight / 2;
+  margin-bottom: 0;
+  .border-radius(@baseBorderRadius / 2);
+}
+
+// Bar of progress
+.progress .bar {
+  #gradient > .vertical(@blue, mix(@blue, @blueDark, 50%));
+}
+
+// Striped bars
+.progress-striped .bar {
+  #gradient > .striped(@blue);
+}
+
+
+// COLORS
+// ------
+
+// Danger (red)
+.progress-danger .bar, .progress .bar-danger {
+  #gradient > .vertical(@red, mix(@red, @redDark, 30%));
+}
+.progress-danger.progress-striped .bar, .progress-striped .bar-danger {
+  #gradient > .striped(@red);
+}
+
+// Success (green)
+.progress-success .bar, .progress .bar-success {
+  #gradient > .vertical(@green, mix(@green, @greenDark, 50%));
+}
+.progress-success.progress-striped .bar, .progress-striped .bar-success {
+  #gradient > .striped(@green);
+}
+
+// Info (teal)
+.progress-info .bar, .progress .bar-info {
+  #gradient > .vertical(mix(@blueLight, @blue, 20%), mix(@blue, @blueDark, 60%));
+}
+.progress-info.progress-striped .bar, .progress-striped .bar-info {
+  #gradient > .striped(mix(@blueLight, @blue, 50%));
+}
+
+// Warning (orange)
+.progress-warning .bar, .progress .bar-warning {
+  #gradient > .vertical(@yellow, mix(@yellow, @yellowDark, 50%));
+}
+.progress-warning.progress-striped .bar, .progress-striped .bar-warning {
+  #gradient > .striped(mix(@yellow, mix(@yellow, @yellowDark, 50%), 50%));
+}
+
+.progress .bar-overlay {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left:0;
+  color: @white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+.progress-key {
+  width: @baseFontSize * 2/3;
+  height: @baseFontSize * 2/3;
+  display: inline-block;
+  margin: 0;
+  .border-radius(2px);
+}

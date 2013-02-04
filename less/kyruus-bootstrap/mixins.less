@@ -1,0 +1,48 @@
+.dataTables_icon(@unicode, @color, @hilite) {
+//  *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0dc;&nbsp;');
+//  *zoom: ~`"\"this.runtimeStyle['zoom'] = \\\"1\\\", this.innerHTML = 'foo'\""`;
+//  *zoom: ~"expression( this.runtimeStyle['zoom'] = \\\"1\\\", this.innerHTML = '&#xf0dc;&nbsp;')";
+  &:after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+
+    position: absolute;
+    right: -11px;
+    content: @unicode;
+    color: @color;
+  }
+  &:hover:after {
+    color: @hilite;
+  }
+}
+
+#gradient {
+  .verticalWaves(@startColor: #555, @endColor: #333) {
+    background-color: mix(@startColor, @endColor, 60%);
+    background-image: url('@{image_url}kyruus-waves-light.svg'), -moz-linear-gradient(top, @startColor, @endColor); // FF 3.6+
+    background-image: url('@{image_url}kyruus-waves-light.svg'), -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)); // Safari 4+, Chrome 2+
+    background-image: url('@{image_url}kyruus-waves-light.svg'), -webkit-linear-gradient(top, @startColor, @endColor); // Safari 5.1+, Chrome 10+
+    background-image: url('@{image_url}kyruus-waves-light.svg'), -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
+    background-image: url('@{image_url}kyruus-waves-light.svg'), linear-gradient(to bottom, @startColor, @endColor); // Standard, IE10
+    background-repeat: repeat;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down
+  }
+}
+
+.sticky-footer (@footer-height: @baseLineHeight * 4, @footer-padding-top: 70px, @footer-padding-bottom: 70px, @footer-margin-top: 70px) {
+  .wrapper {
+    margin: 0 auto -(@footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1);
+  }
+  .push {
+    height: @footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1;
+  }
+
+  .footer {
+    margin-top: @footer-margin-top;
+    height: @footer-height;
+    padding: @footer-padding-top 0 @footer-padding-bottom;
+  }
+}

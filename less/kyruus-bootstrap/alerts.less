@@ -1,0 +1,62 @@
+//
+// Alerts
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.alert-prominent {
+  padding: 30px 70px 30px;
+}
+
+// Alternate styles
+// -------------------------
+
+.alert-inverse {
+  background-color: @inverseBackground;
+  border-color: @inverseBorder;
+  color: @inverseText;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
+// Utility classes
+.alert-warning, .alert-success, .alert-error, .alert-info {
+  a { font-weight: bold; }
+}
+
+.alert-warning {
+  a {
+    color: @yellowDark;
+    &:hover { color: @yellowDarker; }
+  }
+  .muted { color: mix(@warningBackground, @warningText, 50%); }
+  .progress .bar { #gradient > .vertical(mix(@warningBackground, @warningText, 80%), mix(@warningBackground, @warningText, 50%)); }
+}
+
+.alert-error {
+  a {
+    color: @red;
+    &:hover { color: @redDark; }
+  }
+  .muted { color: mix(@errorBackground, @errorText, 50%); }
+  .progress .bar { #gradient > .vertical(mix(@errorBackground, @errorText, 80%), mix(@errorBackground, @errorText, 40%)); }
+}
+
+.alert-info {
+  a {
+    color: @blue;
+    &:hover { color: @blueDark; }
+  }
+  .muted { color: mix(@infoBackground, @infoText, 50%); }
+  .progress .bar { #gradient > .vertical(mix(@infoBackground, @infoText, 80%), mix(@infoBackground, @infoText, 40%)); }
+}
+
+.alert-success {
+  a {
+    color: @greenDark;
+    &:hover { color: @greenDarker; }
+  }
+  .muted { color: mix(@successBackground, @successText, 50%); }
+  .progress .bar { #gradient > .vertical(mix(@successBackground, @successText, 80%), mix(@successBackground, @successText, 40%)); }
+}
