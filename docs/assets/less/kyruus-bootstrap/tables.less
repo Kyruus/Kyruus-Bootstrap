@@ -1,0 +1,6 @@
+.table-bordered-outer {
+  border: 1px solid @tableBorder;
+  border-collapse: separate; // Done so we can round those corners!
+  *border-collapse: collapse; // IE7 can't round corners anyway
+  .border-radius(@baseBorderRadius);
+}

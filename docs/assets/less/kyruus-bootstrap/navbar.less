@@ -1,0 +1,194 @@
+//
+// Navbars
+// --------------------------------------------------
+
+
+// Kyruus navbar
+// -------------------------
+
+.navbar-kyruus {
+  color: @navbarKyruusText;
+  margin-bottom: 30px;
+
+  &.navbar-padded {
+    .brand {
+      margin-top: 50px;
+      &.brand-large {
+        margin-bottom: 0;
+        margin-top: 37px;
+      }
+    }
+    .nav {
+      margin-top: 52px;
+    }
+  }
+
+  .nav-pills.pull-right {
+    margin-right: -20px;
+  }
+
+  .navbar-inner {
+    #gradient > .verticalWaves(@navbarKyruusBackgroundHighlight, @navbarKyruusBackground);
+    border-color: @navbarKyruusBorder;
+  }
+
+  &.navbar-kyruus-large .navbar-inner {
+    #gradient > .verticalWaves(@navbarKyruusBackgroundHighlight, @navbarKyruusBackgroundLarge);
+  }
+
+
+  &.navbar .nav > .active > a, &.navbar .nav > .active > a:hover, &.navbar .nav > .active > a:focus {
+    font-weight: normal;
+    .box-shadow(none);
+  }
+
+  .brand {
+    width: 75px;
+    height: 25px;
+    background: url('@{image_url}kyruus-logo-white.gif') no-repeat center center;
+    background: rgba(0,0,0,0) url('@{image_url}kyruus-logo-white.svg') no-repeat center center;
+  }
+  .brand-large {
+    width: 110px;
+    height: 38px;
+    margin-bottom: 5px;
+    background: url('@{image_url}kyruus-logo-white-large.gif') no-repeat center center;
+    background: rgba(0,0,0,0) url('@{image_url}kyruus-logo-white.svg') no-repeat center center;
+    background-size: 110px 38px;
+  }
+
+  .brand-passport {
+    &.brand {
+      width: 131px;
+      height: 25px;
+      background: url('@{image_url}passport-logo-white.gif') no-repeat center center;
+      background: rgba(0,0,0,0) url('@{image_url}passport-logo-white.svg') no-repeat center center;
+    }
+    &.brand-large {
+      width: 199px;
+      height: 38px;
+      margin-bottom: 5px;
+      background: url('@{image_url}passport-logo-white-large.gif') no-repeat center center;
+      background: rgba(0,0,0,0) url('@{image_url}passport-logo-white.svg') no-repeat center center;
+      background-size: 199px 38px;
+    }
+  }
+
+  .brand,
+  .nav > li > a {
+    color: @navbarKyruusLinkColor;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    &:hover {
+      color: @navbarKyruusLinkColorHover;
+    }
+  }
+
+  .nav > li > a {
+    margin-top: 5px;
+  }
+
+  .nav > li > a:focus,
+  .nav > li > a:hover {
+    color: @navbarKyruusLinkColorHover;
+    background-color: @navbarKyruusLinkBackgroundHover;
+    background-color: rgba(0,51,102,25%);
+    *background-color: @navbarKyruusLinkBackgroundHover;
+  }
+
+  .nav .active > a,
+  .nav .active > a:hover,
+  .nav .active > a:focus {
+    color: @navbarKyruusLinkColorActive;
+    background-color: @navbarKyruusLinkBackgroundActive;
+    background-color: rgba(0,51,102,15%);
+    *background-color: @navbarKyruusLinkBackgroundActive;
+  }
+
+  .nav-large {
+    @nav-large-size: 20px;
+    margin-top: 7px;
+    font-size: 20px;
+    .divider-vertical {
+      margin: 4px 9px;
+      height: @nav-large-size * 1.5;
+    }
+  }
+
+// Inline text links
+  .navbar-link {
+    color: @navbarKyruusLinkColor;
+    &:hover {
+      color: @navbarKyruusLinkColorHover;
+    }
+  }
+
+// Dividers in navbar
+  .divider-vertical {
+    margin: 9px;
+    padding-right: 2px;
+    height: @baseLineHeight;
+    border-left-color: mix(@blueLight, @blue, 50%);
+    border-right-color: mix(@blueLight, @blue, 50%);
+  }
+
+  .dropdown-toggle > i.icon-caret-down { display: inline; }
+
+// Dropdowns
+  .nav li.dropdown.open > .dropdown-toggle,
+  .nav li.dropdown.active > .dropdown-toggle,
+  .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: @navbarKyruusLinkBackgroundActive;
+    background-color: rgba(0,51,102,15%);
+    *background-color: @navbarKyruusLinkBackgroundActive;
+    color: @navbarKyruusLinkColorActive;
+  }
+  .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: @navbarKyruusLinkColor;
+    border-bottom-color: @navbarKyruusLinkColor;
+  }
+  .nav li.dropdown.open > .dropdown-toggle .caret,
+  .nav li.dropdown.active > .dropdown-toggle .caret,
+  .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: @navbarKyruusLinkColorActive;
+    border-bottom-color: @navbarKyruusLinkColorActive;
+  }
+
+// Navbar search
+  .navbar-search {
+    .search-query {
+      color: @white;
+      background-color: @navbarKyruusSearchBackground;
+      border-color: @navbarKyruusSearchBorder;
+      .box-shadow(~"inset 0 1px 2px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.15)");
+      .transition(none);
+      .placeholder(@navbarKyruusSearchPlaceholderColor);
+
+    // Focus states (we use .focused since IE7-8 and down doesn't support :focus)
+      &:focus,
+      &.focused {
+        padding: 5px 15px;
+        color: @grayDark;
+        text-shadow: 0 1px 0 @white;
+        background-color: @navbarKyruusSearchBackgroundFocus;
+        border: 0;
+        .box-shadow(0 0 3px rgba(0,0,0,.15));
+        outline: 0;
+      }
+    }
+  }
+
+// Navbar collapse button
+  .btn-navbar {
+    .buttonBackground(darken(@navbarKyruusBackgroundHighlight, 5%), darken(@navbarKyruusBackground, 5%));
+  }
+
+}
+
+.navbar-static-top {
+  min-width: 990px; // necessary fix for non-responsive layouts
+  .border-radius(0);
+  &.navbar-kyruus .navbar-inner {
+  //    .box-shadow(0 0 4px @blueDarker); // make a nice shadow underneath navbar
+  }
+}
+

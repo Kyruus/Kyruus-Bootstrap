@@ -2,204 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3aafd9a-e540-4cc6-83be-fb6040a416f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/font-awesome/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/bootstrap-modal/bootstrap-modal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/data-tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/datepicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/docs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/fonts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/retina.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/select2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/variables-old.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus/www.kyruus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/css-tests.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/css-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/css-tests.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/css-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/forms-responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/navbar-fixed-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/navbar-static-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tests/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/css-tests.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/css-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/forms-responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/navbar-fixed-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/navbar-static-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tests/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/twbs-2.2.2/wells.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/2.0.3/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/2.0.3/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/2.0.3/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/2.0.3/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/FontAwesome.otf" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/kyruus/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/kyruus/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/kyruus/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/kyruus/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/kyruus/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/passport/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/passport/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/passport/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/passport/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/ico/passport/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/img/passport-logo-white-large.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/img/passport-logo-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/css/kyruus-bootstrap/kyruus.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/css/sites/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/css/sites/passport-v2/passport-v2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/css/sites/www.kyruus.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome-3.0.2/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/img/kyruus-waves-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/img/passport-logo-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/js/less-1.3.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/fonts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/kyruus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/lazy.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/retina.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/variables-old.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/kyruus-bootstrap/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/lib/bootstrap-modal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/lib/data-tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/lib/datepicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/lib/select2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/sites/docs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/sites/passport-v2/campaign.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/sites/passport-v2/passport-v2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/sites/passport-v2/profile.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/assets/less/sites/www.kyruus.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/css/kyruus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/css/www.kyruus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/ico/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/bootstrap-modal/bootstrap-modal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/data-tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/datepicker.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/docs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/fonts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/footer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/labels-badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/retina.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/select2.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/variables-old.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/kyruus/www.kyruus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/hero-unit.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/labels-badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/layouts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/reset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-1200px-min.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-767px-max.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-768px-979px.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/sprites.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/css-tests.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/css-tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tests/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/less/twbs-2.1/wells.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/docs.css" afterPath="$PROJECT_DIR$/docs/assets/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/kyruus.css" afterPath="$PROJECT_DIR$/docs/assets/css/kyruus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/www.kyruus.css" afterPath="$PROJECT_DIR$/docs/assets/css/www.kyruus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome-ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome.less" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/docs/assets/font/font-awesome/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/base-css.html" afterPath="$PROJECT_DIR$/docs/base-css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/hero.html" afterPath="$PROJECT_DIR$/docs/examples/hero.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/getting-started.html" afterPath="$PROJECT_DIR$/docs/getting-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/font/font-awesome/font-awesome-ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/font-awesome.less" afterPath="$PROJECT_DIR$/font/font-awesome/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/font/font-awesome/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/kyruus/kyruus.less" afterPath="$PROJECT_DIR$/less/kyruus/kyruus.less" />
     </list>
     <ignored path="Kyruus-Bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -222,37 +175,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kyruus.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="0" selection-start="5358" selection-end="5646" vertical-scroll-proportion="-20.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getting-started.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/getting-started.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1493" selection-end="3152" vertical-scroll-proportion="-0.3">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hero.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hero.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/examples/hero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="53" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.37406856">
+            <state line="62" column="53" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -261,52 +196,7 @@
       <file leaf-file-name="mixins.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="10" selection-start="2050" selection-end="2059" vertical-scroll-proportion="-18.384615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/type.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-modal.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/less/bootstrap-modal/bootstrap-modal.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="0" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/font-awesome.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docs.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/docs.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="509" column="0" selection-start="10067" selection-end="10067" vertical-scroll-proportion="-23.346153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="76" selection-start="731" selection-end="731" vertical-scroll-proportion="-12.5">
+            <state line="96" column="10" selection-start="2050" selection-end="2059" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -325,30 +215,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/mixins.less" />
-        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/modals.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/footer.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/www.kyruus.less" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/mockups/home.html" />
         <option value="$PROJECT_DIR$/docs/base-css.html" />
         <option value="$PROJECT_DIR$/docs/getting-started.html" />
-        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/navbar.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/jumbotron.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/docs.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/font-awesome.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/bootstrap-modal/bootstrap-modal.less" />
-        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less" />
         <option value="$PROJECT_DIR$/docs/assets/less/kyruus/type.less" />
         <option value="$PROJECT_DIR$/docs/examples/hero.html" />
+        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/navbar.less" />
+        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/lazy.less" />
+        <option value="$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="56" />
     <option name="y" value="22" />
-    <option name="width" value="1384" />
-    <option name="height" value="878" />
+    <option name="width" value="2504" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -471,14 +361,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twbs-2.2.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -498,169 +380,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kyruus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-modal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyruus-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
+              <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,6 +409,10 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kyruus-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -692,7 +420,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Shared - Icon Font/3.0.0-wip/Font-Awesome" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Documents/Kyruus/passport-v2-mockup" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -705,11 +433,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/assets/img" />
       <recent name="$PROJECT_DIR$/docs/assets/js" />
       <recent name="$PROJECT_DIR$/docs/assets/font" />
       <recent name="$PROJECT_DIR$/docs/assets" />
       <recent name="$PROJECT_DIR$/font/font-awesome" />
-      <recent name="$PROJECT_DIR$/less" />
     </key>
   </component>
   <component name="RunManager">
@@ -732,14 +460,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1384" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="56" y="22" width="2504" height="1398" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5653897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2578986" sideWeight="0.4346103" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13784765" sideWeight="0.9960846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -750,6 +477,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5653897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -808,127 +536,40 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/mockups/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-6.875">
-          <folding>
-            <marker date="1359054686000" expanded="false" signature="11441:11455" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/base-css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1620" column="0" selection-start="65775" selection-end="65775" vertical-scroll-proportion="0.53733766">
-          <folding>
-            <element signature="n#style#0;n#div#12;n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#1;n#section#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#1;n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#3;n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#4;n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#13;n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#14;n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#15;n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#section#6;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/assets/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/jumbotron.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/navbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="76" selection-start="731" selection-end="731" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/docs.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="509" column="0" selection-start="10067" selection-end="10067" vertical-scroll-proportion="-23.346153">
-          <folding />
-        </state>
+        <state line="20" column="76" selection-start="731" selection-end="731" vertical-scroll-proportion="-12.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/getting-started.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1493" selection-end="3152" vertical-scroll-proportion="-0.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/font/font-awesome/font-awesome.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="0" selection-start="5358" selection-end="5646" vertical-scroll-proportion="-20.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/font-awesome.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/bootstrap-modal/bootstrap-modal.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/kyruus.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="36" column="0" selection-start="1493" selection-end="3152" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/assets/less/twbs-2.2.2/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="10" selection-start="2050" selection-end="2059" vertical-scroll-proportion="-18.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/less/kyruus/type.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+        <state line="96" column="10" selection-start="2050" selection-end="2059" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/examples/hero.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="53" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.37406856">
+        <state line="62" column="53" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18">
           <folding />
         </state>
       </provider>

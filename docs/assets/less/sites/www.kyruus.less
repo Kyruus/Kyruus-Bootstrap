@@ -1,0 +1,40 @@
+//
+// www.kyruus.com specific styles
+// --------------------------------------------------
+
+@import "../kyruus-bootstrap/mixins";
+@import "../kyruus-bootstrap/variables";
+
+aside {
+  > div { margin-bottom: 22px; }
+  form { margin: 0; }
+}
+
+.info-box {
+  width: 85%;
+  margin-bottom: 40px;
+  h4 {
+    margin-top: 0;
+  }
+  > ul {
+    > li {
+      margin-top: @baseLineHeight/2;
+      border-top: solid 1px @grayLighter;
+      padding-top: @baseLineHeight/2;
+    }
+  }
+}
+
+article > h1 {
+  margin-top: 0;
+}
+
+ul > li.active {
+  font-weight: bold;
+  [class^="icon-"],
+  [class*=" icon-"] {
+    color: @blue;
+  }
+}
+
+.sticky-footer(60px, 70px, 70px, 70px);
