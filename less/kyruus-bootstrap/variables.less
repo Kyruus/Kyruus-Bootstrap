@@ -104,6 +104,23 @@
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+@fontSizeLarge:         @baseFontSize * 1.25; // ~18px
+@fontSizeSmall:         @baseFontSize * 0.85; // ~12px
+@fontSizeMini:          @baseFontSize * 0.75; // ~11px
+
+@paddingLarge:          11px 19px; // 44px
+@paddingSmall:          2px 10px;  // 26px
+@paddingMini:           0 6px;   // 22px
+
+@baseBorderRadius:      4px;
+@borderRadiusLarge:     6px;
+@borderRadiusSmall:     3px;
+
+
 // Tables
 // -------------------------
 @tableBackground:                   transparent; // overall background-color
@@ -196,6 +213,11 @@
 // Wells
 // -------------------------
 @wellBackground:                  #f5f5f5;
+
+
+// Horizontal forms & lists
+// -------------------------
+@horizontalComponentOffset:       180px;
 
 
 // Navbar
@@ -345,3 +367,17 @@
 // 768px-979px
 @fluidGridColumnWidth768:      percentage(@gridColumnWidth768/@gridRowWidth768);
 @fluidGridGutterWidth768:      percentage(@gridGutterWidth768/@gridRowWidth768);
+
+
+// KYRUUS SPECIFIC DIRECTORIES
+// --------------------------------------------------
+@image_dir: '../../img/';
+
+
+// Kyruus Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+@fontSizeXL:            @baseFontSize * 1.5; // ~18px
+@paddingXL:             15px 23px; // 44px
+@borderRadiusXL:        7px;

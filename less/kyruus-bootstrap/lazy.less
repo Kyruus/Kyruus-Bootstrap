@@ -53,9 +53,6 @@
 .display-block { display: block; } // use to swap an anchor tag to span a whole row to make click target larger
 .no-underline:hover { text-decoration: none; }
 .clickable { cursor: pointer; }
-.text-align-left { text-align: left !important; }
-.text-align-center { text-align: center !important; }
-.text-align-right { text-align: right !important; }
 .strong { font-weight: bold; }
 .em { font-style: italic; }
 .small { font-size: 85%; } // Ex: 14px base font * 85% = about 12px
@@ -66,6 +63,7 @@
   font-family: @sansFontFamily;
   font-size: @baseFontSize;
   line-height: @baseLineHeight;
+  font-weight: normal;
 }
 .hilite {
   color: @linkColor;
