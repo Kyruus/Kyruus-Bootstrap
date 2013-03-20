@@ -29,10 +29,10 @@
   &-warning           { background-color: @yellow; color: @grayDark; text-shadow: 0 -1px 0 @yellowLighter; }
   &-warning[href]     { background-color: darken(@yellow, 10%); }
 // Success (green)
-  &-success           { background-color: @green; }
+  &-success           { background-color: mix(@green, @greenLight, 70%); }
   &-success[href]     { background-color: darken(@green, 10%); }
 // Info (turquoise)
-  &-info              { background-color: @blue; }
+  &-info              { background-color: mix(@blue, @blueLight, 20%); }
   &-info[href]        { background-color: darken(@blue, 10%); }
 // Inverse (black)
   &-inverse           { background-color: @grayDark; }

@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -6081,6 +6081,64 @@ a.badge:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+@-ms-viewport {
+  width: device-width;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.visible-phone {
+  display: none !important;
+}
+.visible-tablet {
+  display: none !important;
+}
+.hidden-desktop {
+  display: none !important;
+}
+.visible-desktop {
+  display: inherit !important;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+}
+.visible-print {
+  display: none !important;
+}
+@media print {
+  .visible-print {
+    display: inherit !important;
+  }
+  .hidden-print {
+    display: none !important;
+  }
+}
 /*!
  * Bootstrap Modal
  *
@@ -8623,7 +8681,7 @@ ul.icons li [class*=" icon-"] {
 }
 .label-success,
 .badge-success {
-  background-color: #95bf52;
+  background-color: #abcd72;
 }
 .label-success[href],
 .badge-success[href] {
@@ -8631,7 +8689,7 @@ ul.icons li [class*=" icon-"] {
 }
 .label-info,
 .badge-info {
-  background-color: #009add;
+  background-color: #93cfee;
 }
 .label-info[href],
 .badge-info[href] {
@@ -8684,19 +8742,15 @@ ul.icons li [class*=" icon-"] {
   font-weight: bold;
   font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.btn-xlarge {
-  padding: 11px 16px;
-  font-size: 20px;
-  line-height: 1;
+.btn-xl {
+  padding: 15px 23px;
+  font-size: 21px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
 }
-.btn-xlarge [class^="icon-"] {
-  margin-top: 0;
-}
-button.btn.btn-xlarge,
-input[type="submit"].btn.btn-xlarge {
+button.btn.btn-xl,
+input[type="submit"].btn.btn-xl {
   *padding-top: 9px;
   *padding-bottom: 9px;
 }
@@ -8775,9 +8829,27 @@ input[type="submit"].btn.btn-xlarge {
   -moz-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+.jumbotron .container,
+.navbar .container,
+.jumbotron .container-fluid,
+.navbar .container-fluid {
+  position: relative;
+  z-index: 2;
+}
 .navbar-kyruus {
+  position: relative;
   color: #d8f0fc;
   margin-bottom: 30px;
+}
+.navbar-kyruus:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../../img/kyruus-waves-light.svg');
 }
 .navbar-kyruus .nav {
   margin-top: 2px;
@@ -8797,23 +8869,23 @@ input[type="submit"].btn.btn-xlarge {
 }
 .navbar-kyruus .navbar-inner {
   background-color: #0092d4;
-  background-image: url('../../img/kyruus-waves-light.svg'), -moz-linear-gradient(top, #009add, #0085c6);
-  background-image: url('../../img/kyruus-waves-light.svg'), -webkit-gradient(linear, 0 0, 0 100%, from(#009add), to(#0085c6));
-  background-image: url('../../img/kyruus-waves-light.svg'), -webkit-linear-gradient(top, #009add, #0085c6);
-  background-image: url('../../img/kyruus-waves-light.svg'), -o-linear-gradient(top, #009add, #0085c6);
-  background-image: url('../../img/kyruus-waves-light.svg'), linear-gradient(to bottom, #009add, #0085c6);
-  background-repeat: repeat;
+  background-image: -moz-linear-gradient(top, #009add, #0085c6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#009add), to(#0085c6));
+  background-image: -webkit-linear-gradient(top, #009add, #0085c6);
+  background-image: -o-linear-gradient(top, #009add, #0085c6);
+  background-image: linear-gradient(to bottom, #009add, #0085c6);
+  background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff009add', endColorstr='#ff0085c6', GradientType=0);
   border-color: #007dbc;
 }
 .navbar-kyruus.navbar-kyruus-large .navbar-inner {
   background-color: #0082c3;
-  background-image: url('../../img/kyruus-waves-light.svg'), -moz-linear-gradient(top, #009add, #005f9b);
-  background-image: url('../../img/kyruus-waves-light.svg'), -webkit-gradient(linear, 0 0, 0 100%, from(#009add), to(#005f9b));
-  background-image: url('../../img/kyruus-waves-light.svg'), -webkit-linear-gradient(top, #009add, #005f9b);
-  background-image: url('../../img/kyruus-waves-light.svg'), -o-linear-gradient(top, #009add, #005f9b);
-  background-image: url('../../img/kyruus-waves-light.svg'), linear-gradient(to bottom, #009add, #005f9b);
-  background-repeat: repeat;
+  background-image: -moz-linear-gradient(top, #009add, #005f9b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#009add), to(#005f9b));
+  background-image: -webkit-linear-gradient(top, #009add, #005f9b);
+  background-image: -o-linear-gradient(top, #009add, #005f9b);
+  background-image: linear-gradient(to bottom, #009add, #005f9b);
+  background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff009add', endColorstr='#ff005f9b', GradientType=0);
 }
 .navbar-kyruus.navbar .nav > .active > a,
@@ -9171,6 +9243,12 @@ body {
 .help-inline {
   color: #9c9996;
 }
+.optional {
+  color: #9c9996;
+}
+.optional:after {
+  content: " (Optional)";
+}
 .alert-prominent {
   padding: 30px 70px 30px;
 }
@@ -9186,12 +9264,6 @@ body {
 .alert-info a {
   font-weight: bold;
 }
-.alert-warning a {
-  color: #cc9600;
-}
-.alert-warning a:hover {
-  color: #5b4411;
-}
 .alert-warning .muted {
   color: #dac179;
 }
@@ -9204,12 +9276,6 @@ body {
   background-image: linear-gradient(to bottom, #f0e4bf, #dac179);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0e4bf', endColorstr='#ffdac179', GradientType=0);
-}
-.alert-error a {
-  color: #dd7373;
-}
-.alert-error a:hover {
-  color: #ba4a4a;
 }
 .alert-error .muted {
   color: #eeb2b2;
@@ -9224,12 +9290,6 @@ body {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8d7d7', endColorstr='#ffeba5a5', GradientType=0);
 }
-.alert-info a {
-  color: #009add;
-}
-.alert-info a:hover {
-  color: #005f9b;
-}
 .alert-info .muted {
   color: #78caee;
 }
@@ -9242,12 +9302,6 @@ body {
   background-image: linear-gradient(to bottom, #c0e6f8, #60c0eb);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc0e6f8', endColorstr='#ff60c0eb', GradientType=0);
-}
-.alert-success a {
-  color: #678943;
-}
-.alert-success a:hover {
-  color: #41683b;
 }
 .alert-success .muted {
   color: #a7bc94;
@@ -9324,6 +9378,28 @@ a [class*=" icon-"],
 a [class^="icon-"]:before,
 a [class*=" icon-"]:before {
   display: inline;
+}
+.btn.btn-xl [class^="icon-"],
+.btn.btn-xl [class*=" icon-"] {
+  margin-top: 0;
+}
+.btn.btn-xl [class^="icon-"].icon-large:before,
+.btn.btn-xl [class*=" icon-"].icon-large:before {
+  vertical-align: -15%;
+}
+.btn.btn-xl [class^="icon-"].pull-left.icon-2x,
+.btn.btn-xl [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-xl [class^="icon-"].pull-right.icon-2x,
+.btn.btn-xl [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em;
+}
+.btn.btn-xl [class^="icon-"].pull-left.icon-2x,
+.btn.btn-xl [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em;
+}
+.btn.btn-xl [class^="icon-"].pull-right.icon-2x,
+.btn.btn-xl [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em;
 }
 .padding-none {
   padding: 0 !important;
@@ -9457,15 +9533,6 @@ a [class*=" icon-"]:before {
 .clickable {
   cursor: pointer;
 }
-.text-align-left {
-  text-align: left !important;
-}
-.text-align-center {
-  text-align: center !important;
-}
-.text-align-right {
-  text-align: right !important;
-}
 .strong {
   font-weight: bold;
 }
@@ -9498,6 +9565,13 @@ a [class*=" icon-"]:before {
 .hilite:hover {
   color: #005f9b;
   text-decoration: underline;
+}
+.hilite [class^="icon-"]:before,
+.hilite [class*=" icon-"]:before {
+  display: inline;
+}
+.strike {
+  text-decoration: line-through;
 }
 body ::-webkit-scrollbar {
   -webkit-appearance: none;
