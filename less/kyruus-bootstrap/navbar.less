@@ -6,9 +6,29 @@
 // Kyruus navbar
 // -------------------------
 
+.jumbotron, .navbar {
+  .container, .container-fluid {
+    position: relative; // fixes z-index problem when layering waves
+    z-index: 2; // fixes z-index problem when layering waves
+  }
+}
+
 .navbar-kyruus {
+  position: relative;
   color: @navbarKyruusText;
   margin-bottom: 30px;
+
+  &:after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:url('@{image_dir}kyruus-waves-light.svg');
+  }
+
 
   .nav {
     margin-top: 2px;
@@ -32,12 +52,12 @@
   }
 
   .navbar-inner {
-    #gradient > .verticalWaves(@navbarKyruusBackgroundHighlight, @navbarKyruusBackground);
+    #gradient > .vertical(@navbarKyruusBackgroundHighlight, @navbarKyruusBackground);
     border-color: @navbarKyruusBorder;
   }
 
   &.navbar-kyruus-large .navbar-inner {
-    #gradient > .verticalWaves(@navbarKyruusBackgroundHighlight, @navbarKyruusBackgroundLarge);
+    #gradient > .vertical(@navbarKyruusBackgroundHighlight, @navbarKyruusBackgroundLarge);
   }
 
 
