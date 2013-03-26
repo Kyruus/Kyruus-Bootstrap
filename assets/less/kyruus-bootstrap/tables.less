@@ -4,3 +4,35 @@
   *border-collapse: collapse; // IE7 can't round corners anyway
   .border-radius(@baseBorderRadius);
 }
+
+.table tbody tr > td {
+  &.success {
+    background-color: darken(@successBackground, 5%);
+  }
+  &.error {
+    background-color: darken(@errorBackground, 5%);
+  }
+  &.warning {
+    background-color: darken(@warningBackground, 5%);
+  }
+  &.info {
+    background-color: darken(@infoBackground, 5%);
+  }
+}
+
+
+// Hover states for .table-hover
+.table-hover tbody tr:hover > td {
+  &.success {
+    background-color: darken(@successBackground, 10%);
+  }
+  &.error {
+    background-color: darken(@errorBackground, 10%);
+  }
+  &.warning {
+    background-color: darken(@warningBackground, 10%);
+  }
+  &.info {
+    background-color: darken(@infoBackground, 10%);
+  }
+}
