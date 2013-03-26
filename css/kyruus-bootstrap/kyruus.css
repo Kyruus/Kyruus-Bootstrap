@@ -8595,14 +8595,14 @@ ul.icons li [class*=" icon-"] {
 }
 .progress-info .bar,
 .progress .bar-info {
-  background-color: #1698d5;
-  background-image: -moz-linear-gradient(top, #25a7e1, #0082c3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#25a7e1), to(#0082c3));
-  background-image: -webkit-linear-gradient(top, #25a7e1, #0082c3);
-  background-image: -o-linear-gradient(top, #25a7e1, #0082c3);
-  background-image: linear-gradient(to bottom, #25a7e1, #0082c3);
+  background-color: #37aee3;
+  background-image: -moz-linear-gradient(top, #5cbbe8, #009add);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5cbbe8), to(#009add));
+  background-image: -webkit-linear-gradient(top, #5cbbe8, #009add);
+  background-image: -o-linear-gradient(top, #5cbbe8, #009add);
+  background-image: linear-gradient(to bottom, #5cbbe8, #009add);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff25a7e1', endColorstr='#ff0082c3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cbbe8', endColorstr='#ff009add', GradientType=0);
 }
 .progress-info.progress-striped .bar,
 .progress-striped .bar-info {
@@ -8855,9 +8855,6 @@ input[type="submit"].btn.btn-xl {
   left: 0;
   background: url('../../img/kyruus-waves-light.svg');
 }
-.navbar-kyruus .nav {
-  margin-top: 2px;
-}
 .navbar-kyruus.navbar-padded .brand {
   margin-top: 50px;
 }
@@ -8901,6 +8898,7 @@ input[type="submit"].btn.btn-xl {
   box-shadow: none;
 }
 .navbar-kyruus .brand {
+  padding: 7px 20px 8px;
   width: 75px;
   height: 25px;
   background: url('../../img/kyruus-logo-white.gif') no-repeat center center;
@@ -8936,9 +8934,6 @@ input[type="submit"].btn.btn-xl {
 .navbar-kyruus .brand:hover,
 .navbar-kyruus .nav > li > a:hover {
   color: #ffffff;
-}
-.navbar-kyruus .nav > li > a {
-  margin-top: 5px;
 }
 .navbar-kyruus .nav > li > a:focus,
 .navbar-kyruus .nav > li > a:hover {
@@ -9090,6 +9085,15 @@ input[type="submit"].btn.btn-xl {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+}
+.navbar-kyruus .badge {
+  padding: 2px 7px;
+  vertical-align: text-top;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+.navbar-kyruus .badge-important {
+  background: #db6b6b;
 }
 .well-light {
   background-color: #f9f9f9;
@@ -9334,6 +9338,30 @@ body {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+.table tbody tr > td.success {
+  background-color: #e8f4d4;
+}
+.table tbody tr > td.error {
+  background-color: #ffd7d7;
+}
+.table tbody tr > td.warning {
+  background-color: #fff8d5;
+}
+.table tbody tr > td.info {
+  background-color: #d7efff;
+}
+.table-hover tbody tr:hover > td.success {
+  background-color: #deeec0;
+}
+.table-hover tbody tr:hover > td.error {
+  background-color: #ffbdbd;
+}
+.table-hover tbody tr:hover > td.warning {
+  background-color: #fff3bb;
+}
+.table-hover tbody tr:hover > td.info {
+  background-color: #bde5ff;
 }
 .btn.btn-xlarge [class^="icon-"],
 .btn.btn-xlarge [class*=" icon-"] {

@@ -1,4 +1,5 @@
 //
+//
 // Navbars
 // --------------------------------------------------
 
@@ -31,7 +32,7 @@
 
 
   .nav {
-    margin-top: 2px;
+//    margin-top: 2px;
   }
 
   &.navbar-padded {
@@ -67,6 +68,7 @@
   }
 
   .brand {
+    padding: 7px 20px 8px;
     width: 75px;
     height: 25px;
     background: url('@{image_dir}kyruus-logo-white.gif') no-repeat center center;
@@ -108,8 +110,10 @@
   }
 
   .nav > li > a {
-    margin-top: 5px;
+//    margin-top: 5px;
   }
+
+
 
   .nav > li > a:focus,
   .nav > li > a:hover {
@@ -216,3 +220,15 @@
   }
 }
 
+.navbar-kyruus {
+  .badge {
+    padding: 2px 7px;
+    vertical-align: text-top;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+  .badge-important {
+    background: darken(@errorText, 2%);
+  }
+}
