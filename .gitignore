@@ -15,7 +15,6 @@ src/website/static/*
 src/website/media/*
 
 bin
-build
 cfcache
 develop-eggs
 dist

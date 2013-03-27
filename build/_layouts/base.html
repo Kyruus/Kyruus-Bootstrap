@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% endif %} Kyruus Bootstrap</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link rel="stylesheet" href="{{ page.base_dir }}assets/css/kyruus-bootstrap/kyruus.css">
+  <link rel="stylesheet" href="{{ page.base_dir }}assets/css/sites/docs.css">
+  <link rel="stylesheet" href="{{ page.base_dir }}assets/js/google-code-prettify/prettify.css">
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="{{ page.base_dir }}assets/font/font-awesome-3.0.2/font-awesome-ie7.css">
+  <![endif]-->
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+                                 <link rel="shortcut icon" href="{{ page.base_dir }}assets/ico/kyruus/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ page.base_dir }}assets/ico/kyruus/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ page.base_dir }}assets/ico/kyruus/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ page.base_dir }}assets/ico/kyruus/apple-touch-icon-72-precomposed.png">
+                  <link rel="apple-touch-icon-precomposed" href="{{ page.base_dir }}assets/ico/kyruus/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+
+  <!-- Navbar
+  ================================================== -->
+  <div class="navbar navbar-kyruus navbar-static-top navbar-kyruus-large hidden-print">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="{{ page.base_dir }}"></a>
+        <ul class="nav">
+          {% if page.view == "user" %}
+          <li{% if page.navbar-active == "my-profile" %} class="active"{% endif %}><a href="profile-user.html"><i class="icon-user"></i> My Profile <span class="badge badge-important">2</span></a></li>
+          <li><a href="campaigns.html"><i class="icon-folder-open"></i> Campaigns</a></li>
+          {% elsif page.view == "department-chair" %}
+          <li><a href="#"><i class="icon-home"></i></a></li>
+          <li><a href="#"><i class="icon-group"></i> Profiles</a></li>
+          <li{% if page.navbar-active == "campaigns" %} class="active"{% endif %}><a href="campaigns.html"><i class="icon-folder-open"></i> Campaigns</a></li>
+          <li{% if page.navbar-active == "mgmt-plans" %} class="active"{% endif %}><a href="management-plans.html"><i class="icon-warning-sign"></i> Mgmt Plans</a></li>
+          <li{% if page.navbar-active == "my-profile" %} class="active"{% endif %}><a href="profile-user.html"><i class="icon-user"></i> My Profile</a></li>
+          {% elsif page.view == "admin" %}
+          <li><a href="#"><i class="icon-home"></i></a></li>
+          <li><a href="#"><i class="icon-group"></i> Profiles</a></li>
+          <li{% if page.navbar-active == "campaigns" %} class="active"{% endif %}><a href="campaigns.html"><i class="icon-folder-open"></i> Campaigns</a></li>
+          {% endif %}
+          <li{% if page.navbar-active == "help" %} class="active"{% endif %}><a href="help.html"><i class="icon-question-sign"></i> Help</a></li>
+        </ul>
+        <ul class="nav nav-pills pull-right">
+          <li{% if page.navbar-active == "home" %} class="active"{% endif %}><a href="{{ page.base_dir }}"><i class="icon-home"></i> Home</a></li>
+          <li class="dropdown{% if page.navbar-active == "base-css" %} active{% endif %}" id="nav-dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#nav-dropdown" data-action="nav-username-dropdown">
+              Base Bootstrap
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li{% if page.navbar-active == "base-css" %} class="active"{% endif %}><a href="{{ page.base_dir }}bootstrap/base-css.html" data-action="nav-username-dropdown-sign_out">Base CSS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="jumbotron jumbotron-padded">
+        <div class="container">
+          <h1>{{ page.jumbotron-h1 }}</h1>
+          <p>{{ page.jumbotron-p }}</p>
+        {% if page.navbar-active == "home" %}
+          <p><a href="https://github.com/Kyruus/Kyruus-Bootstrap/archive/master.zip" class="btn btn-success btn-xl" ><i class="icon-cloud-download icon-large"></i>&nbsp; Download Kyruus Bootstrap</a></p>
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <div class="push"><!-- necessary for sticky footer --></div>
+</div>
+
+
+<!-- Footer
+================================================== -->
+<footer class="footer footer-docs hidden-print">
+  <div class="container">
+    <div class="container">
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>The Kyruus Bootstrap theme is maintained by Dave Gandy - dgandy@kyru.us. Need changes or additions? Let him know.</p>
+      <p>Icons from <a href="http://fortaweso.me">Font Awesome</a>, created by Dave Gandy & licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      <p>Twitter Bootstrap was designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+      <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- Usually good to include when using Kyruus Bootstrap -->
+<script src="{{ page.base_dir }}assets/js/jquery-1.9.1.js"></script>
+<script src="{{ page.base_dir }}assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="{{ page.base_dir }}assets/js/better-collapse.js"></script>
+<script src="{{ page.base_dir }}assets/js/bootstrap-datepicker.js"></script>
+<script src="{{ page.base_dir }}assets/js/bootstrap-modalmanager.js"></script>
+<script src="{{ page.base_dir }}assets/js/bootstrap-modal.js"></script>
+
+<!-- Kyruus Bootstrap Doc Specific -->
+<script src="{{ page.base_dir }}assets/js/google-code-prettify/prettify.js"></script>
+<script src="{{ page.base_dir }}assets/js/holder-1.9.js"></script>
+<script src="{{ page.base_dir }}assets/js/application.js"></script>
+
+</body>
+</html>
