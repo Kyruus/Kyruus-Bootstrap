@@ -2,22 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Kyruus Bootstrap</title>
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <title>Templates - Kyruus Bootstrap</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
   <!-- Le styles -->
-  <link rel="stylesheet/less" type="text/css" href="assets/less/kyruus-bootstrap/kyruus.less">
-  <link rel="stylesheet/less" type="text/css" href="assets/less/sites/docs.less">
-  <script src="assets/js/less-1.3.3.min.js" type="text/javascript"></script>
-
-  <!--<link rel="stylesheet" href="assets/css/kyruus-bootstrap/kyruus.css">-->
-  <!--<link rel="stylesheet" href="assets/css/sites/docs.css">-->
+  <link rel="stylesheet" href="assets/css/kyruus-bootstrap/kyruus.css">
+  <link rel="stylesheet" href="assets/css/sites/docs.css">
   <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css">
 
   <!--[if IE 7]>
-  <link rel="stylesheet" href="/assets/font/font-awesome/font-awesome-ie7.css">
+  <link rel="stylesheet" href="assets/font/font-awesome-3.0.2/font-awesome-ie7.css">
   <![endif]-->
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -26,11 +21,11 @@
   <![endif]-->
 
   <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="assets/ico/kyruus/favicon.ico">
+                                 <link rel="shortcut icon" href="assets/ico/kyruus/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/kyruus/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/kyruus/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/kyruus/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/ico/kyruus/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/kyruus/apple-touch-icon-72-precomposed.png">
+                  <link rel="apple-touch-icon-precomposed" href="assets/ico/kyruus/apple-touch-icon-57-precomposed.png">
 
 </head>
 
@@ -38,111 +33,110 @@
 <div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
 
   <!-- Navbar
- ================================================== -->
-  <div class="navbar navbar-kyruus navbar-kyruus-large navbar-static-top">
+  ================================================== -->
+  <div class="navbar navbar-kyruus navbar-static-top navbar-kyruus-large hidden-print">
     <div class="navbar-inner">
       <div class="container">
-        <a class="brand" href="./index.html"></a>
-        <div class="nav-collapse collapse">
+        <div class="clearfix">
+          <a class="brand" href="./"></a>
           <ul class="nav nav-pills pull-right">
-            <li>
-              <a href="./index.html"><i class="icon-home"></i> Home</a>
+            <li><a href="./"><i class="icon-home"></i> Home</a></li>
+            <li class="active"><a href="templates.html"><i class="icon-file"></i> Templates</a></li>
+            <li class="dropdown" id="nav-dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#nav-dropdown" data-action="nav-username-dropdown">
+              Base Bootstrap
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li><a href="bootstrap-getting-started.html">Getting Started</a></li>
+              <li><a href="bootstrap-scaffolding.html">Scaffolding</a></li>
+              <li><a href="bootstrap-base-css.html">Base CSS</a></li>
+              <li><a href="bootstrap-components.html">Components</a></li>
+              <li><a href="bootstrap-javascript.html">Javascript</a></li>
+            </ul>
             </li>
-            <li class="active">
-              <a href="templates.html"><i class="icon-file-alt"></i> Templates</a>
-            </li>
-            <!--<li class="">-->
-            <!--<a href="./style-guide.html">Style Guide</a>-->
-            <!--</li>-->
-            <!--<li class="">-->
-            <!--<a href="./javascript.html">Javascript</a>-->
-            <!--</li>-->
           </ul>
         </div>
-      </div>
-      <div class="jumbotron jumbotron-padded">
-        <div class="container">
+        <div class="jumbotron jumbotron-padded">
           <h1>Sample Templates</h1>
           <p>Templates you can use to quickly get started with Kyruus Bootstrap.</p>
-          <!--<ul class="masthead-links">-->
-          <!--<li><a href="http://github.com/twitter/bootstrap" >GitHub project</a></li>-->
-          <!--<li><a href="./extend.html" >Extend</a></li>-->
-          <!--<li>Version 2.1.0</li>-->
-          <!--</ul>-->
+        
         </div>
       </div>
-
     </div>
   </div>
 
 
   <div class="container">
     <div class="row-fluid">
-      <div class="span6">
-        <div class="thumbnail">
-          <a href="examples/starter-template.html">
-            <img src="assets/img/starter-template.png">
-          </a>
-          <div class="caption">
-            <h3>Starter Template</h3>
-            <p>
-              A great starting point for a basic Kyruus Bootstrap project.
-            </p>
-            <a class="btn" href="examples/starter-template.html">Check it out &nbsp;<i class="icon-circle-arrow-right"></i></a>
+  <div class="span6">
+    <div class="thumbnail">
+      <a href="examples/starter-template.html">
+        <img src="assets/img/starter-template.png">
+      </a>
+      <div class="caption">
+        <h3>Starter Template</h3>
+        <p>
+          A great starting point for a basic Kyruus Bootstrap project.
+        </p>
+        <a class="btn" href="examples/starter-template.html">Check it out &nbsp;<i class="icon-circle-arrow-right"></i></a>
 
-          </div>
-        </div>
-      </div>
-      <div class="span6">
-        <div class="thumbnail">
-          <a href="examples/jumbotron-template.html">
-            <img src="assets/img/jumbotron-template.png">
-          </a>
-          <div class="caption">
-            <h3>Jumbotron Template</h3>
-            <p>
-              A great starting point for a marketing Kyruus Bootstrap project.
-            </p>
-            <a class="btn" href="examples/jumbotron-template.html">Check it out &nbsp;<i class="icon-circle-arrow-right"></i></a>
-
-          </div>
-        </div>
       </div>
     </div>
+  </div>
+  <div class="span6">
+    <div class="thumbnail">
+      <a href="examples/jumbotron-template.html">
+        <img src="assets/img/jumbotron-template.png">
+      </a>
+      <div class="caption">
+        <h3>Jumbotron Template</h3>
+        <p>
+          A great starting point for a marketing Kyruus Bootstrap project.
+        </p>
+        <a class="btn" href="examples/jumbotron-template.html">Check it out &nbsp;<i class="icon-circle-arrow-right"></i></a>
+
+      </div>
+    </div>
+  </div>
+</div>
 
   </div>
 
   <div class="push"><!-- necessary for sticky footer --></div>
 </div>
 
+
 <!-- Footer
 ================================================== -->
-<footer class="footer footer-docs">
+<footer class="footer footer-docs hidden-print">
   <div class="container">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>The Kyruus Bootstrap theme is maintained by Dave Gandy - dgandy@kyru.us. Need changes or additions? Let him know.</p>
-    <p>Icons from <a href="http://fortaweso.me">Font Awesome</a>, created by Dave Gandy & licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <p>Twitter Bootstrap was designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    <div class="container">
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>The Kyruus Bootstrap theme is maintained by Dave Gandy - dave@kyru.us. Need changes or additions? Let him know.</p>
+      <p>Icons from <a href="http://fortaweso.me">Font Awesome</a>, created by Dave Gandy & licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      <p>Twitter Bootstrap was designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+      <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    </div>
   </div>
 </footer>
-
 
 
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<!-- Usually good to include when using Kyruus Bootstrap -->
 <script src="assets/js/jquery-1.9.1.js"></script>
-<script src="assets/js/google-code-prettify/prettify.js"></script>
-<script src="assets/js/bootstrap-2.3.0.min.js"></script>
+<script src="assets/js/bootstrap-2.3.1.min.js"></script>
 <script src="assets/js/better-collapse.js"></script>
 <script src="assets/js/bootstrap-datepicker.js"></script>
 <script src="assets/js/bootstrap-modalmanager.js"></script>
 <script src="assets/js/bootstrap-modal.js"></script>
 
+<!-- Kyruus Bootstrap Doc Specific -->
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+<script src="assets/js/holder-1.9.js"></script>
 <script src="assets/js/application.js"></script>
-
-
 
 </body>
 </html>

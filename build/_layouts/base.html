@@ -40,7 +40,8 @@
         <div class="clearfix">
           <a class="brand" href="./"></a>
           <ul class="nav nav-pills pull-right">
-            <li{% if page.navbar-active == "home" %} class="active"{% endif %}><a href=""><i class="icon-home"></i> Home</a></li>
+            <li{% if page.navbar-active == "home" %} class="active"{% endif %}><a href="./"><i class="icon-home"></i> Home</a></li>
+            <li{% if page.navbar-active == "templates" %} class="active"{% endif %}><a href="templates.html"><i class="icon-file"></i> Templates</a></li>
             <li class="dropdown{% if page.navbar-active == "getting-started" or page.navbar-active == "scaffolding" or page.navbar-active == "base-css" or page.navbar-active == "components" or page.navbar-active == "javascript" %} active{% endif %}" id="nav-dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#nav-dropdown" data-action="nav-username-dropdown">
               Base Bootstrap
