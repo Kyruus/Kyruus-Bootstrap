@@ -1,17 +1,24 @@
 PATH := ../node_modules/.bin:$(PATH)
 
-KB_LESS_DIRECTORY = assets/less/kyruus-bootstrap
-KB_CSS_DIRECTORY = assets/css/
+SITE_LESS_DIRECTORY = assets/less
+SITE_CSS_DIRECTORY = assets/css
 
-KB_LESS = ${KB_LESS_DIRECTORY}/kyruus.less
-KB_CSS = ${KB_CSS_DIRECTORY}/kyruus.css
-KB_CSS_MIN = ${KB_CSS_DIRECTORY}/kyruus.min.css
+KB_LESS = ${SITE_LESS_DIRECTORY}/kyruus-bootstrap/kyruus.less
+KB_CSS = ${SITE_CSS_DIRECTORY}/kyruus.css
+KB_CSS_MIN = ${SITE_CSS_DIRECTORY}/kyruus.min.css
+
+DOCS_LESS = ${SITE_LESS_DIRECTORY}/sites/docs.less
+DOCS_CSS = ${SITE_CSS_DIRECTORY}/sites/docs.css
+DOCS_CSS_MIN = ${SITE_CSS_DIRECTORY}/sites/docs.min.css
 
 build:
 	@echo "Compiling Less files"
-	@mkdir -p ${KB_CSS_DIRECTORY}
+	@mkdir -p ${SITE_CSS_DIRECTORY}
 	lessc ${KB_LESS} > ${KB_CSS}
 	lessc --compress ${KB_LESS} > ${KB_CSS_MIN}
+	@mkdir -p ${SITE_CSS_DIRECTORY}/sites
+	lessc ${DOCS_LESS} > ${DOCS_CSS}
+	lessc --compress ${DOCS_LESS} > ${DOCS_CSS_MIN}
 
 
 default: build
