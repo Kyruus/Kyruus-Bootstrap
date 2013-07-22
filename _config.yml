@@ -1,0 +1,21 @@
+safe:             false
+port:             7999
+baseurl:          /Kyruus-Bootstrap/  # Where GitHub serves the project up from
+url:              http://localhost:7999
+
+source:           src
+destination:      _gh_pages
+plugins:          src/_plugins
+
+pygments:         true
+permalink:        pretty
+
+# ensures SCSS files are compiled
+include:          [_bootstrap.scss, _core.scss, _extras.scss, _icons.scss, _mixins.scss, _path.scss, _variables.scss]
+
+fontawesome:
+  version:        3.2.1
+  url:            http://fontawesome.io
+bootstrap:
+  version:        2.3.2
+  url:            http://getbootstrap.com

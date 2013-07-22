@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% endif %} Kyruus Bootstrap</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <base href="{{ site.baseurl }}">
+
+  <!-- Le styles -->
+  <link rel="stylesheet" href="assets/css/kyruus-bootstrap/kyruus.css">
+  <link rel="stylesheet" href="assets/css/sites/docs.css">
+  <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css">
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="assets/font/font-awesome-3.0.2/font-awesome-ie7.css">
+  <![endif]-->
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+                                 <link rel="shortcut icon" href="assets/ico/kyruus/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/kyruus/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/kyruus/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/kyruus/apple-touch-icon-72-precomposed.png">
+                  <link rel="apple-touch-icon-precomposed" href="assets/ico/kyruus/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+
+  <!-- Navbar
+  ================================================== -->
+  <div class="navbar navbar-kyruus navbar-static-top navbar-kyruus-large hidden-print">
+    <div class="navbar-inner">
+      <div class="container">
+        <div class="clearfix">
+          <a class="brand" href="./"></a>
+          <ul class="nav nav-pills pull-right">
+            <li{% if page.navbar-active == "home" %} class="active"{% endif %}><a href="./"><i class="icon-home"></i> Home</a></li>
+            <li{% if page.navbar-active == "templates" %} class="active"{% endif %}><a href="templates"><i class="icon-file"></i> Templates</a></li>
+            <li class="dropdown{% if page.navbar-active == "getting-started" or page.navbar-active == "scaffolding" or page.navbar-active == "base-css" or page.navbar-active == "components" or page.navbar-active == "javascript" %} active{% endif %}" id="nav-dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#nav-dropdown" data-action="nav-username-dropdown">
+              Base Bootstrap
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li{% if page.navbar-active == "getting-started" %} class="active"{% endif %}><a href="bootstrap-getting-started">Getting Started</a></li>
+              <li{% if page.navbar-active == "scaffolding" %} class="active"{% endif %}><a href="bootstrap-scaffolding">Scaffolding</a></li>
+              <li{% if page.navbar-active == "base-css" %} class="active"{% endif %}><a href="bootstrap-base-css">Base CSS</a></li>
+              <li{% if page.navbar-active == "components" %} class="active"{% endif %}><a href="bootstrap-components">Components</a></li>
+              <li{% if page.navbar-active == "javascript" %} class="active"{% endif %}><a href="bootstrap-javascript">Javascript</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="jumbotron jumbotron-padded">
+          <h1>{{ page.jumbotron-h1 }}</h1>
+          <p>{{ page.jumbotron-p }}</p>
+        {% if page.navbar-active == "home" %}
+          <p><a href="https://github.com/Kyruus/Kyruus-Bootstrap/archive/master.zip" class="btn btn-success btn-xl" ><i class="icon-cloud-download icon-large"></i>&nbsp; Download Kyruus Bootstrap</a></p>
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <div class="push"><!-- necessary for sticky footer --></div>
+</div>
+
+
+<!-- Footer
+================================================== -->
+<footer class="footer footer-docs hidden-print">
+  <div class="container">
+    <div class="container">
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>The Kyruus Bootstrap theme is maintained by Dave Gandy - dave@kyru.us. Need changes or additions? Let him know.</p>
+      <p>Icons from <a href="http://fortaweso.me">Font Awesome</a>, created by Dave Gandy & licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      <p>Twitter Bootstrap was designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+      <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- Usually good to include when using Kyruus Bootstrap -->
+<script src="assets/js/jquery-1.9.1.js"></script>
+<script src="assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="assets/js/better-collapse.js"></script>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+<script src="assets/js/bootstrap-modalmanager.js"></script>
+<script src="assets/js/bootstrap-modal.js"></script>
+
+<!-- Kyruus Bootstrap Doc Specific -->
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+<script src="assets/js/holder-1.9.js"></script>
+<script src="assets/js/application.js"></script>
+
+</body>
+</html>
