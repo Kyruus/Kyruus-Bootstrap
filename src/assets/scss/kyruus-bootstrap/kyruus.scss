@@ -4,26 +4,25 @@
 // KYRUUS BOOTSTRAP VERSION {{ site.kyruus-bootstrap.version }}
 // ------------------------------
 
+// Bootstrap Variables & Mixins
+@import "../bootstrap-{{ site.bootstrap.version }}/variables";
+@import "../bootstrap-{{ site.bootstrap.version }}/mixins";
+
+// Kyruus Bootstrap Variables & Mixins
+@import "variables";
+@import "mixins";
+
+
 
 // Bootstrap
 @import "../bootstrap-{{ site.bootstrap.version }}/bootstrap";
-@import "../bootstrap-{{ site.bootstrap.version }}/mixins";
-@import "../bootstrap-{{ site.bootstrap.version }}/variables";
 @import "../bootstrap-{{ site.bootstrap.version }}/responsive-utilities"; // for visible-print and hidden-print
 
 // Font Awesome
 @import "../font-awesome-{{ site.fontawesome.version }}/font-awesome";
 
-// Other Plugins
-@import "../lib/bootstrap-modal";
-@import "../lib/data-tables";
-@import "../lib/datepicker";
-@import "../lib/select2";
-
 // Kyruus Bootstrap
-@import "variables"; // overrides variables
 @import "fonts";
-@import "mixins";
 @import "progress-bars";
 @import "labels-badges";
 @import "jumbotron";
@@ -41,3 +40,9 @@
 @import "tables";
 @import "font-awesome";
 @import "lazy";
+
+// Other Plugins
+@import "../lib/bootstrap-modal";
+@import "../lib/data-tables";
+@import "../lib/datepicker";
+@import "../lib/select2";

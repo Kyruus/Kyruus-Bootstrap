@@ -1,0 +1,14 @@
+//
+// Kyruus close icons
+// --------------------------------------------------
+// Resets the .close style to play nice with Font Awesome
+
+.close {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.alert .close {
+  line-height: inherit;
+  padding-top: 2px;
+}

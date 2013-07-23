@@ -1,0 +1,14 @@
+//
+// Kyruus Modals
+// --------------------------------------------------
+
+
+// Background
+.modal-backdrop,
+.modal-backdrop.fade.in{
+  background-color: mix($blueDarker, $black, 50%);
+}
+
+.modal-header .close {
+  margin: 0;
+}

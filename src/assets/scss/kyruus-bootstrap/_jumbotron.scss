@@ -1,0 +1,26 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+
+.jumbotron {
+  color:#ffffff;
+  text-shadow:0 1px 3px rgba(0,0,0,0.4), 0 0 30px rgba(0,0,0,0.075);
+  h1 {
+    font-size: 80px;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+  p {
+    font-size:24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  &.jumbotron-padded {
+    padding: 55px 0 45px;
+  }
+}

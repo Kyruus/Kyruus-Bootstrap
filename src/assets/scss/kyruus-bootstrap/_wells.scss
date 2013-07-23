@@ -4,22 +4,22 @@
 
 
 .well-light {
-  background-color: @tableBackgroundAccent;
-  border-color: mix(@white, darken(@wellBackground, 7%), 50%);
+  background-color: $tableBackgroundAccent;
+  border-color: mix($white, darken($wellBackground, 7%), 50%);
 }
 
 .well-white {
-  background-color: @white;
+  background-color: $white;
 }
 
 .well-transparent {
   background-color: transparent;
-  .box-shadow(none);
-  border-color: @tableBorder;
+  @include box-shadow(none);
+  border-color: $tableBorder;
 }
 
 .well-shadow {
-  .box-shadow(0 0 4px rgba(0,0,0,.2));
+  @include box-shadow(0 0 4px rgba(0,0,0,.2));
 }
 
 .well > h3 {
