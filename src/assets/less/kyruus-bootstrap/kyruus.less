@@ -1,21 +1,24 @@
-// TWITTER BOOTSTRAP
-// -------------------
-@import "../bootstrap-2.3.2/bootstrap";
-@import "../bootstrap-2.3.2/mixins";
-@import "../bootstrap-2.3.2/variables";
-@import "../bootstrap-2.3.2/responsive-utilities"; // for visible-print and hidden-print
+---
+---
 
-// OTHER PLUGINS
-// -------------------
+// KYRUUS BOOTSTRAP VERSION {{ site.kyruus-bootstrap.version }}
+// ------------------------------
+
+
+// Bootstrap
+@import "../bootstrap-{{ site.bootstrap.version }}/bootstrap";
+@import "../bootstrap-{{ site.bootstrap.version }}/mixins";
+@import "../bootstrap-{{ site.bootstrap.version }}/variables";
+@import "../bootstrap-{{ site.bootstrap.version }}/responsive-utilities"; // for visible-print and hidden-print
+
+// Other Plugins
 @import "../bootstrap-modal";
 @import "../data-tables";
 @import "../datepicker";
 @import "../select2";
 
-// FONT AWESOME
-// -------------------
-
-@import "../../font/font-awesome-3.2.1/less/font-awesome";
+// Font Awesome
+@import "../../font/font-awesome-{{ site.fontawesome.version }}/less/font-awesome";
 
 // KYRUUS BOOTSTRAP
 // -------------------

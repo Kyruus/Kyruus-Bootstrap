@@ -14,7 +14,8 @@ permalink:        pretty
 include:          [_bootstrap.scss, _core.scss, _extras.scss, _icons.scss, _mixins.scss, _path.scss, _variables.scss]
 
 kyruus-bootstrap:
-  version:        1.0.0
+  version:            1.0.0
+
 
 # external libraries
 jquery:
