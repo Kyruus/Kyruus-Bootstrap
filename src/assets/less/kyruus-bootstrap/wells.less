@@ -8,9 +8,14 @@
   border-color: mix(@white, darken(@wellBackground, 7%), 50%);
 }
 
+.well-white {
+  background-color: @white;
+}
+
 .well-transparent {
   background-color: transparent;
-  border-color: @wellBackground;
+  .box-shadow(none);
+  border-color: @tableBorder;
 }
 
 .well-shadow {

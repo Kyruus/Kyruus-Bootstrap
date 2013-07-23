@@ -82,14 +82,25 @@ img.pull-left {
 }
 
 // Horizontal layout (like forms)
-.dl-horizontal.dl-compact {
+.dl-horizontal {
   dt {
-    width: @horizontalComponentOffset - 80;
+    font-weight: normal;
   }
-  dd {
-    margin-left: @horizontalComponentOffset - 60;
-    word-wrap : break-word;
+  &.dl-compact {
+    dt {
+      width: @horizontalComponentOffset - 80;
+    }
+    dd {
+      margin-left: @horizontalComponentOffset - 60;
+      word-wrap : break-word;
+    }
   }
+  &.dl-padded {
+    dt, dd {
+      padding-bottom: 14px;
+    }
+  }
+  dt.strong { font-weight: bold; }
 }
 
 td.number { text-align: right; }

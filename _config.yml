@@ -13,9 +13,16 @@ permalink:        pretty
 # ensures SCSS files are compiled
 include:          [_bootstrap.scss, _core.scss, _extras.scss, _icons.scss, _mixins.scss, _path.scss, _variables.scss]
 
-fontawesome:
-  version:        3.2.1
-  url:            http://fontawesome.io
+kyruus-bootstrap:
+  version:        1.0.0
+
+# external libraries
+jquery:
+  version:        1.9.1
+  url:            http://jquery.com
 bootstrap:
   version:        2.3.2
   url:            http://getbootstrap.com
+fontawesome:
+  version:        3.2.1
+  url:            http://fontawesome.io
