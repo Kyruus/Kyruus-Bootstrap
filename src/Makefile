@@ -27,12 +27,12 @@ build:
 	@mkdir -p ${OUTPUT_DIR}
 
 	@echo "Compiling Less files"
-	sass ${KB_SCSS}:${KB_CSS}
-#	lessc ${KB_LESS} > ${KB_CSS}
-#	lessc --compress ${KB_LESS} > ${KB_CSS_MIN}
-	sass ${DOCS_SCSS}:${DOCS_CSS}
-#	lessc ${DOCS_LESS} > ${DOCS_CSS}
-#	lessc --compress ${DOCS_LESS} > ${DOCS_CSS_MIN}
+#	sass ${KB_SCSS}:${KB_CSS}
+	lessc ${KB_LESS} > ${KB_CSS}
+	lessc --compress ${KB_LESS} > ${KB_CSS_MIN}
+#	sass ${DOCS_SCSS}:${DOCS_CSS}
+	lessc ${DOCS_LESS} > ${DOCS_CSS}
+	lessc --compress ${DOCS_LESS} > ${DOCS_CSS_MIN}
 
 	@echo "Cleaning old theme"
 	rm -rf ${OUTPUT_DIR}/*
