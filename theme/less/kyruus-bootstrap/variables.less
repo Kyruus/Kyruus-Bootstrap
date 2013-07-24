@@ -1,0 +1,151 @@
+//
+// KYRUUS BOOTSTRAP VARIABLES
+// --------------------------------------------------
+
+// Resource Paths
+@css_relative_path:     '..'; // relative path from where compiled CSS resides to just inside the assets/ folder. Affects images & fonts
+@image_dir:             '@{css_relative_path}/img/kyruus-bootstrap'; // where theme images are stored
+@fontPath:              '@{css_relative_path}/font/kyruus-bootstrap';
+@FontAwesomePath:       '@{css_relative_path}/font/font-awesome-3.2.1'; // Font Awesome variable override
+
+// Grays
+@black:                 #000;
+@grayDarker:            #24211f;
+@grayDark:              #363330;
+@gray:                  #585552;
+@grayLight:             #9c9996;
+@grayLighter:           #edeceb;
+@white:                 #fff;
+
+// Blues
+@blueDarker:            #003366;
+@blueDark:              #005f9b; // Kyruus Dark Blue - Pantone 3015 C
+@blue:                  #009add; // Kyruus Blue - Pantone 2925 C
+@blueLight:             #b8dcf2;
+@blueLighter:           #f0f9ff;
+
+// Greens
+@greenDarker:           #41683b;
+@greenDark:             #678943;
+@green:                 #95bf52;
+@greenLight:            #ddefbd;
+@greenLighter:          #f3f9e8;
+
+// Reds
+@redDarker:             #702222;
+@redDark:               #ba4a4a;
+@red:                   #dd7373;
+@redLight:              #f2adb1;
+@redLighter:            #fff0f0;
+
+// Yellows
+@yellowDarker:          #6f4215;
+@yellowDark:            #db8400;
+@yellow:                #f9e27d;
+@yellowLight:           #fff5bd;
+@yellowLighter:         #fffcee;
+
+// Oranges
+@orangeDarker:          #8c3900;
+@orangeDark:            #cc5d11;
+@orange:                #f4914e;
+@orangeLight:           #ffd0a6;
+@orangeLighter:         #fff4e6;
+
+// Purples
+@purpleDarker:          #4a226d;
+@purpleDark:            #7457ad;
+@purple:                #9780d6;
+@purpleLight:           #c3b8f4;
+@purpleLighter:         #fbf5ff;
+
+
+// Kyruus navbar
+@navbarKyruusBackground:                mix(@blueDark, @blue, 35%);
+@navbarKyruusBackgroundLarge:           @blueDark;
+@navbarKyruusBackgroundHighlight:       @blue;
+@navbarKyruusBorder:                    mix(@blue, @blueDark, 50%);
+
+@navbarKyruusText:                      mix(@blueLighter, @blue, 90%);
+@navbarKyruusLinkColor:                 @blueLighter;
+@navbarKyruusLinkColorHover:            @white;
+@navbarKyruusLinkColorActive:           @white;
+@navbarKyruusLinkBackgroundHover:       mix(@blue, @blueDark, 60%);
+@navbarKyruusLinkBackgroundActive:      mix(@blue, @blueDark, 60%);
+
+@navbarKyruusSearchBackground:          mix(@white, @blueLighter, 50%);
+@navbarKyruusSearchBackgroundFocus:     @white;
+@navbarKyruusSearchBorder:              @navbarKyruusBackground;
+@navbarKyruusSearchPlaceholderColor:    @blue;
+
+@navbarKyruusBrandColor:                @navbarKyruusLinkColor;
+
+
+// Additional Component sizing - Based on 14px font-size and 20px line-height
+@fontSizeXL:            @baseFontSize * 1.5; // ~18px
+@paddingXL:             15px 23px; // 44px
+@borderRadiusXL:        7px;
+
+// Misc Variables
+@text-muted:            @grayLight; // shade of muted text
+
+
+
+
+//
+// BOOTSTRAP OVERRIDES
+// --------------------------------------------------
+
+// Links
+@linkColor:             @blue;
+@linkColorHover:        @blueDark;
+
+
+// Typography
+@sansFontFamily:        proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       museo-slab, Georgia, "Times New Roman", Times, serif;
+
+@headingsFontFamily:    @serifFontFamily;
+
+
+// Tables
+@tableBorder:                       @grayLighter; // table and cell border
+
+
+// Buttons
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     mix(@blue, @blueDark, 50%);
+
+@btnInfoBackground:                 mix(@blue, @blueLight, 30%);
+@btnInfoBackgroundHighlight:        mix(@blue, @blueDark, 70%);
+
+@btnSuccessBackground:              @green;
+@btnSuccessBackgroundHighlight:     @greenDark;
+
+@btnWarningBackground:              @yellow;
+@btnWarningBackgroundHighlight:     @yellowDark;
+
+@btnDangerBackground:               @red;
+@btnDangerBackgroundHighlight:      @redDark;
+
+
+// Form states and alerts
+@warningText:             mix(@yellowDark, @yellowDarker, 80%);
+@warningBackground:       @yellowLighter;
+@warningBorder:           darken(spin(@warningBackground, -10), 7%);
+
+@errorText:               @red;
+@errorBackground:         @redLighter;
+@errorBorder:             darken(spin(@errorBackground, -10), 4%);
+
+@successText:             mix(@greenDarker, @greenDark, 30%);
+@successBackground:       @greenLighter;
+@successBorder:           darken(spin(@successBackground, -10), 13%);
+
+@infoText:                @blue;
+@infoBackground:          @blueLighter;
+@infoBorder:              darken(spin(@infoBackground, -10), 7%);
+
+@inverseText:             @white;
+@inverseBackground:       @gray;
+@inverseBorder:           darken(spin(@inverseBackground, -10), 7%);

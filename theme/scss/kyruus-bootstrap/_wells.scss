@@ -1,0 +1,27 @@
+//
+// Wells
+// --------------------------------------------------
+
+
+.well-light {
+  background-color: $tableBackgroundAccent;
+  border-color: mix($white, darken($wellBackground, 7%), 50%);
+}
+
+.well-white {
+  background-color: $white;
+}
+
+.well-transparent {
+  background-color: transparent;
+  @include box-shadow(none);
+  border-color: $tableBorder;
+}
+
+.well-shadow {
+  @include box-shadow(0 0 4px rgba(0,0,0,.2));
+}
+
+.well > h3 {
+  margin-top: -8px; // re-adjust margins on top of h3s
+}

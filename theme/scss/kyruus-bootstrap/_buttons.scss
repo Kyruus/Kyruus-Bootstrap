@@ -1,0 +1,83 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+
+// Core
+.btn {
+  font-weight: bold;
+  font-family: $sansFontFamily;
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+// X-Large
+.btn-xl {
+  padding: $paddingXL;
+  font-size: $fontSizeXL;
+  @include border-radius($borderRadiusXL);
+}
+
+
+// Cross-browser Jank
+// --------------------------------------------------
+
+button.btn,
+input[type="submit"].btn {
+
+  &.btn-xl {
+    *padding-top: 9px;
+    *padding-bottom: 9px;
+  }
+}
+
+// Block button
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  @include box-sizing(border-box);
+}
+
+
+// Link buttons
+// --------------------------------------------------
+// Must call again to reset style for Kyruus Bootstrap
+
+// Make a button look and behave like a link
+.btn-link,
+.btn-link:active {
+  font-weight: normal;
+  background-color: transparent;
+  background-image: none;
+}
+.btn-link {
+  border-color: transparent;
+  cursor: pointer;
+  color: $linkColor;
+}
+.btn-link:hover {
+  color: $linkColorHover;
+  background-color: transparent;
+}
+
+.btn-list {
+  h4 { margin: 0 0 15px; }
+  .btn {
+    margin-bottom: 10px;
+    text-align: left;
+    i {
+      width: 1.1em;
+      display: inline-block;
+      margin-right: .3em;
+      text-align: center;
+      margin-left: 22px;
+    }
+  }
+}

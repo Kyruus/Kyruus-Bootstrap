@@ -1,23 +1,20 @@
----
----
-
 //
-// KYRUUS BOOTSTRAP VERSION {{ site.kyruus-bootstrap.version }}
+// KYRUUS BOOTSTRAP VERSION 1.0.0
 // ------------------------------
 
 // Variables
-@import "../bootstrap-{{ site.bootstrap.version }}/variables";
-@import "../font-awesome-{{ site.fontawesome.version }}/variables";
+@import "../bootstrap-2.3.2/variables";
+@import "../font-awesome-3.2.1/variables";
 @import "variables"; // Kyruus Bootstrap Variables
 
 
 // Bootstrap Import
-@import "../bootstrap-{{ site.bootstrap.version }}/bootstrap";
-@import "../bootstrap-{{ site.bootstrap.version }}/responsive-utilities"; // Not in default Bootstrap, for visible-print and hidden-print
+@import "../bootstrap-2.3.2/bootstrap";
+@import "../bootstrap-2.3.2/responsive-utilities"; // Not in default Bootstrap, for visible-print and hidden-print
 
 
 // Font Awesome Import
-@import "../font-awesome-{{ site.fontawesome.version }}/font-awesome";
+@import "../font-awesome-3.2.1/font-awesome";
 
 
 // Kyruus Bootstrap

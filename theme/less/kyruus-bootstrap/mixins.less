@@ -1,0 +1,32 @@
+.dataTables_icon(@unicode, @color, @hilite) {
+  &:after {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+
+    position: absolute;
+    right: -11px;
+    content: @unicode;
+    color: @color;
+  }
+  &:hover:after {
+    color: @hilite;
+  }
+}
+
+.sticky-footer (@footer-height: @baseLineHeight * 4, @footer-padding-top: 70px, @footer-padding-bottom: 70px, @footer-margin-top: 70px) {
+  .wrapper {
+    margin: 0 auto -(@footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1);
+  }
+  .push {
+    height: @footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1;
+  }
+
+  .footer {
+    margin-top: @footer-margin-top;
+    height: @footer-height;
+    padding: @footer-padding-top 0 @footer-padding-bottom;
+  }
+}

@@ -1,0 +1,78 @@
+//
+// Kyruus Font Awesome styles
+// --------------------------------------------------
+
+
+.btn.btn-xlarge {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    vertical-align: -7%;
+
+  }
+}
+
+.icon-fixed-width {
+  width: 1.1em;
+  display: inline-block;
+}
+
+.icon-6x {
+  font-size: 6em;
+  &.icon-border {
+    padding: .1em .2em;
+    border-width: 6px;
+    .border-radius(8px);
+  }
+}
+
+.icon-7x {
+  font-size: 7em;
+  &.icon-border {
+    padding: .1em .2em;
+    border-width: 7px;
+    .border-radius(9px);
+  }
+}
+
+.icon-8x {
+  font-size: 8em;
+  &.icon-border {
+    padding: .1em .2em;
+    border-width: 8px;
+    .border-radius(10px);
+  }
+}
+
+// allows usage of the hide class directly on font awesome icons
+[class^="icon-"],
+[class*=" icon-"] {
+  &.hide { display:none; }
+}
+
+// fixes font awesome underlining with icons embedded inside anchor tags
+a {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &, &:before { display: inline; }
+  }
+}
+
+.btn.btn-xl {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &.icon-large:before {
+      vertical-align: -15%;
+    }
+    margin-top: 0; // overrides bootstrap default
+    &.pull-left, &.pull-right {
+      &.icon-2x { margin-top: .05em; }
+    }
+    &.pull-left.icon-2x { margin-right: .2em; }
+    &.pull-right.icon-2x { margin-left: .2em; }
+  }
+}
+
+.icon-1x {
+  font-size: @baseFontSize;
+  vertical-align: middle;
+}
